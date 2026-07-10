@@ -141,8 +141,8 @@ body {
 }
 
 .profile-image {
-  width: 150px;
-  border-radius: 50%;
+  width: 250px;
+  border-radius: 5%;
   animation: bounce 1s infinite alternate;
 }
 
@@ -242,6 +242,12 @@ body {
 
 .about-text::dark {
   color: var(--text-color-two);
+}
+.about-image > img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
 }
 
 /* Contact */
